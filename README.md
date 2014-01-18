@@ -17,7 +17,8 @@ tar -zxvf node-v0.10.24-linux-x64.tar.gz
 
 ```bash
 # IMPORTANT: replace <USERNAME> with your username
-sudo ln -s /home/<USERNAME>/programs/node-v0.10.24-linux-x64 /usr/local/bin
+sudo ln -s /home/<USERNAME>/programs/node-v0.10.24-linux-x64/bin/node /usr/local/bin/node
+sudo ln -s /home/<USERNAME>/programs/node-v0.10.24-linux-x64/bin/npm /usr/local/bin/npm
 ```
 
 Now `node -v` should print `v0.10.24`
