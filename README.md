@@ -11,11 +11,9 @@ If it's missing, install it:
 ```bash
 mkdir ~/programs
 cd ~/programs
-wget http://nodejs.org/dist/v0.10.24/node-v0.10.24.tar.gz
+wget http://nodejs.org/dist/v0.10.24/node-v0.10.24-linux-x64.tar.gz
 tar -zxvf node-v0.10.24-linux-x64.tar.gz
-```
 
-```bash
 # IMPORTANT: replace <USERNAME> with your username
 sudo ln -s /home/<USERNAME>/programs/node-v0.10.24-linux-x64/bin/node /usr/local/bin/node
 sudo ln -s /home/<USERNAME>/programs/node-v0.10.24-linux-x64/bin/npm /usr/local/bin/npm
