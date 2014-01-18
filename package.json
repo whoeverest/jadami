@@ -1,0 +1,29 @@
+{
+  "name": "jadami",
+  "version": "0.0.0",
+  "description": "Site for jadamci.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whoeverest/jadami.git"
+  },
+  "keywords": [
+    "food",
+    "eating",
+    "recipes",
+    "ingredients"
+  ],
+  "author": "Daniela V. and Andrej T.",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/whoeverest/jadami/issues"
+  }
+}
