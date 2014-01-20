@@ -1,0 +1,25 @@
+body {
+	background-color: #f2f2f2;
+}
+
+#input-field {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#intro {
+	font-size: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 50px;
+}
+
+#vnesi {
+	font-size: 14px;
+}
