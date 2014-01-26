@@ -11,9 +11,14 @@
     <div id="intro">Ова е сајтче за правење храна. Не, нема сајтчето да ја направи храната за било кого, али ќе проба да асистира у обиди за готвење без многу напор, односно со намирниците кои веќе ги имате дома. Особено е препорачано за луѓе што се склони кон деливери фуд и прејадување.</div>
     <br> <br>
     <div id="input-field">
-    	<span id="vnesi">Внеси ги состојките кои ги имаш дома, одделени со запирка:</span>
-    	<br>
-    	<input type="text"> <input type="button" value="Барај!">
+        <form action="/send_ingredients" method="POST">
+        	<span id="vnesi">Внеси ги состојките кои ги имаш дома, одделени со запирка:</span>
+        	<br>
+        	<input type="text" name="ingredients"> <input type="submit" value="Барај!">
+        </form>
+        <form action="/double_number" method="POST" style="display: none">
+            <input type="text" name="number"> <input type="submit">
+        </form>
     </div>
 </body>
 </html>
